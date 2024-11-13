@@ -1,0 +1,139 @@
+/* src/App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dec3d9;
+  }
+  .ff{
+    text-align: center;
+    color: #4e0ac3;
+    padding: 10px;
+    font-size: 2em;          
+    font-weight: bold;     
+    margin: 0.47em 0;        
+    line-height: 1.2;      
+    font-family:  Arial, sans-serif;  
+  
+  }
+
+  .app {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .stories {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #efefef;
+    border-radius: 10px;
+  }
+  
+  .story img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #4b00c8;
+  }
+  
+  .posts {
+    margin-top: 20px;
+  }
+  
+  .post {
+    background-color: #3c003c;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #ffea8c;
+  }
+  
+  .time {
+    color: #bfbfbf;
+  }
+  
+  .following {
+    color: #ffea8c;
+  }
+  
+  .post-img {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .post-footer {
+    background-color: #2d002d;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .actions button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .actions button:hover {
+    color: #ffea8c;
+  }
+  .comment-form {
+    display: flex;
+  }
+  
+  .comment-input {
+    color: black;
+    flex: 1; 
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; 
+  }
+  
+  .comment-button {
+    background-color: #4b00c8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px; 
+    margin-left: 8px; 
+    cursor: pointer;
+    font-size: 14px; 
+  }
+  
+  .comment-button:hover {
+    background-color: #2f0074; 
+  }
+  
+  .stories {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.stories:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+  
